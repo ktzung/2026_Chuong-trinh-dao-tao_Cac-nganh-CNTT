@@ -1,5 +1,5 @@
 # BÁO CÁO RÀ SOÁT VÀ ĐỀ XUẤT NÂNG CẤP CHƯƠNG TRÌNH ĐÀO TẠO
-## NGÀNH TRÍ TUỆ NHÂN TẠO VÀ KHOA HỌC DỮ LIỆU (TTNT) — Tầm nhìn 2026–2030
+## Ngành trí tuệ nhân tạo và khoa học dữ liệu (TTNT) — Tầm nhìn 2026–2030
 
 > **Kính gửi:** Hội đồng Khoa học & Đào tạo Khoa CNTT
 > **Người thực hiện:** Tổ Rà soát Chương trình
@@ -7,7 +7,7 @@
 
 ---
 
-## I. TÓM TẮT ĐỀ XUẤT
+## I. Tóm tắt đề xuất
 
 Ngành TTNT hiện mang nặng tư duy **"AI Research"**: dạy sinh viên tự xây dựng thuật toán từ con số 0, tự huấn luyện mô hình từ đầu bằng toán học, nghiên cứu lý thuyết hàn lâm sâu. Đây là hướng đào tạo phù hợp với mục tiêu **tạo ra nhà khoa học AI** — nhưng không phù hợp với nhu cầu thực tế của 95% doanh nghiệp Việt Nam.
 
@@ -17,7 +17,7 @@ Thực tế hiện nay: OpenAI, Google DeepMind, Meta FAIR đã giải quyết b
 
 ---
 
-## II. CHẨN ĐOÁN CHƯƠNG TRÌNH HIỆN TẠI
+## II. Chẩn đoán chương trình hiện tại
 
 ### Điểm mạnh cần bảo tồn
 - Nền tảng toán học mạnh (Xác suất, Đại số TT, Giải tích) — thiết yếu cho AI Engineer.
@@ -33,7 +33,7 @@ Thực tế hiện nay: OpenAI, Google DeepMind, Meta FAIR đã giải quyết b
 
 ---
 
-## III. PHÂN TÍCH RỦI RO AI — TỪNG HỌC PHẦN
+## III. Phân tích rủi ro AI — từng học phần
 
 | Học phần | Mã HP | TC | Rủi ro AI | Quyết định đề xuất |
 |----------|-------|----|-----------|-------------------|
@@ -70,14 +70,17 @@ Thực tế hiện nay: OpenAI, Google DeepMind, Meta FAIR đã giải quyết b
 
 ---
 
-## IV. HỌC PHẦN ĐỀ XUẤT LOẠI BỎ — LUẬN GIẢI
+## IV. Học phần đề xuất loại bỏ — luận giải
 
-### 4.1. Phát triển ứng dụng Web cơ bản (CSE122 — 3 TC) → LOẠI BỎ HOÀN TOÀN
+### 4.1. Phát triển ứng dụng Web cơ bản (CSE122 — 3 TC) → TÁI ĐỊNH HƯỚNG CHO TTNT
 
 **Luận cứ:**
-- Ngành TTNT không nên dành 45 tiết dạy HTML/CSS/JS. Đây là kỹ năng của KTPM.
-- Sinh viên TTNT khi cần build UI có thể dùng Streamlit, Gradio, hoặc FastAPI + AI-generated frontend — các công cụ chuyên biệt cho Data Scientists/ML Engineers.
-- 3 tín chỉ này được phân bổ lại cho **"MLOps & AI System Deployment"** — kỹ năng cực kỳ thiếu hụt trên thị trường.
+- Web không phải kỹ năng xa lạ với AI Engineer — Streamlit, Gradio, FastAPI đều chạy trên nền web. Vấn đề là **45 tiết học HTML/CSS/JS thuần** là lãng phí với ngành TTNT.
+- Sinh viên TTNT cần biết **đưa mô hình AI ra web** để demo và production: build API endpoint từ model, gắn lên frontend AI-powered bằng AI agent tools.
+- Không loại bỏ web, mà **tái định hướng**: dạy web như một công cụ triển khai AI, không phải như nghề web developer.
+
+**Thay thế:** Chuyển nội dung thành **"Web app triển khai mô hình AI"** trong môn MLOps — dạy FastAPI + Streamlit/Gradio để serve model, Docker hóa, deploy lên cloud. Dùng AI agent (Cursor, v0.dev) để tạo phần UI; sinh viên tập trung vào API layer và model integration.
+
 
 ### 4.2. Công nghệ phần mềm (CSE481 — 3 TC toàn bộ) → GỘP VÀO MÔN KHÁC
 
@@ -88,15 +91,15 @@ Thực tế hiện nay: OpenAI, Google DeepMind, Meta FAIR đã giải quyết b
 
 ---
 
-## V. ĐỀ XUẤT CHƯƠNG TRÌNH ĐÀO TẠO MỚI (THAM KHẢO — 140 TC)
+## V. Đề xuất chương trình đào tạo mới (tham khảo — 140 TC)
 
-### KHỐI I: GIÁO DỤC ĐẠI CƯƠNG (37 TC — GIỮ NGUYÊN)
+### Khối I: Giáo dục đại cương (37 TC — giữ nguyên)
 
 *(Toán học, Tiếng Anh, Lý luận chính trị giữ nguyên. Đặc biệt: Xác suất Thống kê và Đại số Tuyến tính phải được dạy với ứng dụng trực tiếp vào ML — không thuần lý thuyết.)*
 
 ---
 
-### KHỐI II: NỀN TẢNG KHOA HỌC MÁY TÍNH & DỮ LIỆU (24 TC)
+### Khối II: Nền tảng khoa học máy tính & dữ liệu (24 TC)
 
 | TT | Học phần | TC | HK | Ghi chú thay đổi |
 |----|----------|----|----|-----------------|
@@ -111,7 +114,7 @@ Thực tế hiện nay: OpenAI, Google DeepMind, Meta FAIR đã giải quyết b
 
 ---
 
-### KHỐI III: LÕI MACHINE LEARNING & AI ENGINEERING (27 TC — BẮT BUỘC)
+### Khối III: Lõi machine learning & AI engineering (27 TC — bắt buộc)
 
 | TT | Học phần | TC | HK | Ghi chú thay đổi |
 |----|----------|----|----|-----------------|
@@ -127,7 +130,7 @@ Thực tế hiện nay: OpenAI, Google DeepMind, Meta FAIR đã giải quyết b
 
 ---
 
-### KHỐI IV: CHUYÊN SÂU — TỰ CHỌN (15 TC, chọn 1 track)
+### Khối IV: Chuyên sâu — tự chọn (15 TC, chọn 1 track)
 
 **Track A — Agentic AI & LLMs:**
 
@@ -161,7 +164,7 @@ Thực tế hiện nay: OpenAI, Google DeepMind, Meta FAIR đã giải quyết b
 
 ---
 
-### KHỐI V: THỰC TẬP & ĐỒ ÁN (14 TC)
+### Khối V: Thực tập & đồ án (14 TC)
 
 | TT | Học phần | TC | HK | Yêu cầu mới |
 |----|----------|----|----|------------|
@@ -170,7 +173,7 @@ Thực tế hiện nay: OpenAI, Google DeepMind, Meta FAIR đã giải quyết b
 
 ---
 
-## VI. ĐỔI MỚI PHƯƠNG PHÁP ĐÁNH GIÁ
+## VI. Đổi mới phương pháp đánh giá
 
 | Loại môn | Phương pháp kiểm tra mới |
 |----------|------------------------|
@@ -181,7 +184,7 @@ Thực tế hiện nay: OpenAI, Google DeepMind, Meta FAIR đã giải quyết b
 
 ---
 
-## VII. ĐỊNH HƯỚNG NGHỀ NGHIỆP ĐẦU RA (2030)
+## VII. Định hướng nghề nghiệp đầu ra (2030)
 
 | Vị trí | Kỹ năng cốt lõi từ CTĐT mới |
 |--------|-----------------------------|
@@ -193,7 +196,7 @@ Thực tế hiện nay: OpenAI, Google DeepMind, Meta FAIR đã giải quyết b
 
 ---
 
-## VIII. KẾT LUẬN VÀ KIẾN NGHỊ
+## VIII. Kết luận và kiến nghị
 
 Ngành TTNT đang có vị thế tốt nhất trong tất cả 5 ngành — vì AI đang ngày càng cần những người **hiểu AI từ bên trong**. Nhưng cần sự dịch chuyển mạnh từ "nghiên cứu" sang "kỹ thuật": không chỉ biết train model, mà phải biết deploy, monitor, và scale.
 

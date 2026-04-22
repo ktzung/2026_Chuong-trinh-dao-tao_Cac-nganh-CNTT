@@ -1,5 +1,5 @@
 # BÁO CÁO RÀ SOÁT VÀ ĐỀ XUẤT NÂNG CẤP CHƯƠNG TRÌNH ĐÀO TẠO
-## NGÀNH KỸ THUẬT PHẦN MỀM (KTPM) — Tầm nhìn 2026–2030
+## Ngành kỹ thuật phần mềm (KTPM) — Tầm nhìn 2026–2030
 
 > **Kính gửi:** Hội đồng Khoa học & Đào tạo Khoa CNTT
 > **Người thực hiện:** Tổ Rà soát Chương trình
@@ -7,13 +7,13 @@
 
 ---
 
-## I. TÓM TẮT ĐỀ XUẤT
+## I. Tóm tắt đề xuất
 
 Ngành Kỹ thuật Phần mềm đứng trước nguy cơ đào thải lớn nhất. Các công cụ như GitHub Copilot, Cursor, Devin đã "hàng hóa hóa" kỹ năng viết code thông thường. Chương trình hiện tại đang đào tạo "Junior Developer" — một vị trí đang co hẹp nhanh. Báo cáo đề xuất tái cơ cấu sang đào tạo **"AI-Assisted Software Architect"**: kỹ sư thiết kế, tích hợp và triển khai hệ thống trong môi trường AI-first.
 
 ---
 
-## II. CHẨN ĐOÁN CHƯƠNG TRÌNH HIỆN TẠI
+## II. Chẩn đoán chương trình hiện tại
 
 ### Điểm mạnh cần bảo tồn
 - Nền tảng CS vững (Thuật toán, CTDL, HĐH, Mạng) — AI không thay thế được tư duy hệ thống tầng thấp.
@@ -27,7 +27,7 @@ Ngành Kỹ thuật Phần mềm đứng trước nguy cơ đào thải lớn nh
 
 ---
 
-## III. PHÂN TÍCH RỦI RO AI — TỪNG HỌC PHẦN
+## III. Phân tích rủi ro AI — từng học phần
 
 | Học phần | Mã HP | TC | Rủi ro AI | Quyết định đề xuất |
 |----------|-------|----|-----------|-------------------|
@@ -52,7 +52,7 @@ Ngành Kỹ thuật Phần mềm đứng trước nguy cơ đào thải lớn nh
 
 ---
 
-## IV. CÁC HỌC PHẦN ĐỀ XUẤT LOẠI BỎ — LUẬN GIẢI
+## IV. Các học phần đề xuất loại bỏ — luận giải
 
 ### 4.1. Lập trình Windows (CSE383 — 3 TC) → LOẠI BỎ KHỎI BẮT BUỘC
 
@@ -73,22 +73,22 @@ Ngành Kỹ thuật Phần mềm đứng trước nguy cơ đào thải lớn nh
 
 **Phương án thay thế:** Học phần **"Backend Engineering & API Design"** — language-agnostic, dạy RESTful, GraphQL, authentication, database optimization.
 
-### 4.3. Phát triển ứng dụng Web cơ bản (CSE122 — 3 TC) → GỘP
+### 4.3. Phát triển ứng dụng Web cơ bản (CSE122 — 3 TC) → TÁI ĐỊNH HƯỬNG, KHÔNG LOẠI Bỏ
 
 **Luận cứ:**
-- HTML/CSS/JS cơ bản sinh viên có thể tự học trong **2 tuần** với AI tutoring.
-- v0.dev (Vercel) và Copilot tạo toàn bộ giao diện web từ mô tả ngôn ngữ tự nhiên trong vài giây.
-- 45 tiết cho nội dung này là quá dư thừa.
+- Web không phải kỹ năng lỗi thời — đây vẫn là nền tảng của ứng dụng di động (PWA, React Native, WebView), ứng dụng doanh nghiệp và là vị trí việc làm phổ biến nhất trên thị trường.
+- Vấn đề không phải là "bỏ web" mà là **bỏ cách dạy cũ**: 45 tiết ghi nhớ HTML/CSS/JS thuần là lãng phí — AI agent (v0.dev, Cursor) tạo toàn bộ UI trong vài giây.
+- **Giải pháp:** Gộp Web cơ bản + Web nâng cao thành một môn 6 TC theo hướng AI-native: sinh viên dùng AI agent tạo UI, trọng tâm là kiến trúc hệ thống, bảo mật, tích hợp AI vào sản phẩm và deploy lên cloud.
 
-**Phương án thay thế:** Gộp với Web nâng cao thành **"Kiến trúc & Phát triển Web Hiện đại"** (6 TC) — 1 tuần ôn nhanh cú pháp, phần còn lại dạy API Gateway, Load Balancing, Security, WebSockets.
+**Phương án thay thế:** Gộp thành **"AI-native web & application development"** (6 TC) — 1 tuần nhập môn kiến trúc web, phần còn lại dạy API gateway, load balancing, bảo mật OWASP, tích hợp LLM vào ứng dụng, deploy CI/CD. Mọi đồ án **bắt buộc tích hợp AI** (chatbot RAG, gợi ý thông minh, hoặc AI-powered feature).
 
 ---
 
-## V. ĐỀ XUẤT CHƯƠNG TRÌNH ĐÀO TẠO MỚI (PHIÊN BẢN THAM KHẢO)
+## V. Đề xuất chương trình đào tạo mới (phiên bản tham khảo)
 
 > *Tổng tín chỉ được duy trì 140 TC. Đây là đề xuất thảo luận, chưa thay thế quy trình thẩm định chính thức.*
 
-### KHỐI I: GIÁO DỤC ĐẠI CƯƠNG (37 TC — GIỮ NGUYÊN)
+### Khối I: Giáo dục đại cương (37 TC — giữ nguyên)
 
 | TT | Học phần | TC | HK |
 |----|----------|----|----|
@@ -100,7 +100,7 @@ Ngành Kỹ thuật Phần mềm đứng trước nguy cơ đào thải lớn nh
 
 ---
 
-### KHỐI II: NỀN TẢNG KHOA HỌC MÁY TÍNH (24 TC)
+### Khối II: Nền tảng khoa học máy tính (24 TC)
 
 | TT | Học phần | TC | HK | Ghi chú thay đổi |
 |----|----------|----|----|-----------------|
@@ -115,7 +115,7 @@ Ngành Kỹ thuật Phần mềm đứng trước nguy cơ đào thải lớn nh
 
 ---
 
-### KHỐI III: LÕI KỸ THUẬT PHẦN MỀM (27 TC)
+### Khối III: Lõi kỹ thuật phần mềm (27 TC)
 
 | TT | Học phần | TC | HK | Ghi chú thay đổi |
 |----|----------|----|----|-----------------|
@@ -131,7 +131,7 @@ Ngành Kỹ thuật Phần mềm đứng trước nguy cơ đào thải lớn nh
 
 ---
 
-### KHỐI IV: AI ENGINEERING & CLOUD (15 TC — HOÀN TOÀN MỚI)
+### Khối IV: AI engineering & cloud (15 TC — hoàn toàn mới)
 
 | TT | Học phần | TC | HK | Mô tả |
 |----|----------|----|----|-------|
@@ -143,7 +143,7 @@ Ngành Kỹ thuật Phần mềm đứng trước nguy cơ đào thải lớn nh
 
 ---
 
-### KHỐI V: TỰ CHỌN CHUYÊN SÂU (9 TC — chọn 1 track)
+### Khối V: Tự chọn chuyên sâu (9 TC — chọn 1 track)
 
 | Track | Học phần | TC | HK |
 |-------|----------|----|----|
@@ -153,7 +153,7 @@ Ngành Kỹ thuật Phần mềm đứng trước nguy cơ đào thải lớn nh
 
 ---
 
-### KHỐI VI: THỰC TẬP & ĐỒ ÁN (14 TC)
+### Khối VI: Thực tập & đồ án (14 TC)
 
 | TT | Học phần | TC | HK | Yêu cầu mới |
 |----|----------|----|----|------------|
@@ -162,7 +162,7 @@ Ngành Kỹ thuật Phần mềm đứng trước nguy cơ đào thải lớn nh
 
 ---
 
-## VI. ĐỔI MỚI PHƯƠNG PHÁP ĐÁNH GIÁ
+## VI. Đổi mới phương pháp đánh giá
 
 | Phương pháp cũ | Vấn đề | Phương pháp mới đề xuất |
 |----------------|--------|------------------------|
@@ -173,7 +173,7 @@ Ngành Kỹ thuật Phần mềm đứng trước nguy cơ đào thải lớn nh
 
 ---
 
-## VII. KẾT LUẬN VÀ KIẾN NGHỊ
+## VII. Kết luận và kiến nghị
 
 Kỹ thuật Phần mềm trong kỷ nguyên AI không mất đi bản sắc — nhưng **công cụ đã thay đổi hoàn toàn**. Giống như kỹ sư xây dựng hiện đại không tự đúc gạch nhưng phải thành thạo BIM, kỹ sư phần mềm không cần tự gõ từng dòng HTML nhưng phải thành thạo **System Architecture và AI Orchestration**.
 

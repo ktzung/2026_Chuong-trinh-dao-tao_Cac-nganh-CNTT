@@ -1,5 +1,5 @@
 # BÁO CÁO RÀ SOÁT VÀ ĐỀ XUẤT NÂNG CẤP CHƯƠNG TRÌNH ĐÀO TẠO
-## NGÀNH HỆ THỐNG THÔNG TIN (HTTT) — Tầm nhìn 2026–2030
+## Ngành hệ thống thông tin (HTTT) — Tầm nhìn 2026–2030
 
 > **Kính gửi:** Hội đồng Khoa học & Đào tạo Khoa CNTT
 > **Người thực hiện:** Tổ Rà soát Chương trình
@@ -7,7 +7,7 @@
 
 ---
 
-## I. TÓM TẮT ĐỀ XUẤT
+## I. Tóm tắt đề xuất
 
 Ngành Hệ thống Thông tin có lợi thế cạnh tranh độc đáo trong kỷ nguyên AI: **hiểu biết về nghiệp vụ tổ chức**. AI có thể xử lý dữ liệu, nhưng không thể tự hiểu quy trình kinh doanh phức tạp của một doanh nghiệp cụ thể, không thể tự quyết định KPI nào quan trọng hơn, không thể tự giao tiếp với stakeholders để khai thác yêu cầu. Đây chính là "vùng xanh" (safe zone) của HTTT.
 
@@ -15,7 +15,7 @@ Tuy nhiên, chương trình hiện tại vẫn đang đào tạo sinh viên theo
 
 ---
 
-## II. CHẨN ĐOÁN CHƯƠNG TRÌNH HIỆN TẠI
+## II. Chẩn đoán chương trình hiện tại
 
 ### Điểm mạnh cần bảo tồn
 - Các môn liên quan đến nghiệp vụ: Phân tích & Thiết kế HTTT, Phân tích dữ liệu.
@@ -30,7 +30,7 @@ Tuy nhiên, chương trình hiện tại vẫn đang đào tạo sinh viên theo
 
 ---
 
-## III. PHÂN TÍCH RỦI RO AI — TỪNG HỌC PHẦN
+## III. Phân tích rủi ro AI — từng học phần
 
 | Học phần | Mã HP | TC | Rủi ro AI | Quyết định đề xuất |
 |----------|-------|----|-----------|-------------------|
@@ -63,16 +63,17 @@ Tuy nhiên, chương trình hiện tại vẫn đang đào tạo sinh viên theo
 
 ---
 
-## IV. HỌC PHẦN ĐỀ XUẤT LOẠI BỎ HOẶC GỘP
+## IV. Học phần đề xuất loại bỏ hoặc gộp
 
-### 4.1. Phát triển ứng dụng Web cơ bản (CSE122 — 3 TC) → ĐỀ XUẤT LOẠI BỎ
+### 4.1. Phát triển ứng dụng Web cơ bản (CSE122 — 3 TC) → TÁI ĐỊNH HƯỚNG CHO HTTT
 
 **Luận cứ:**
-- Ngành HTTT không phải ngành phát triển phần mềm Web. Trách nhiệm của HTTT là **phân tích, thiết kế và vận hành hệ thống dữ liệu** cho tổ chức.
-- 45 tiết dạy HTML/CSS/JS là tài nguyên đang bị phân tán không đúng chỗ.
-- Sinh viên HTTT có thể dùng Low-code (AppSheet, Retool) hay AI-generated frontend để build giao diện khi cần — không cần học web từ đầu.
+- Web không phải kỹ năng lỗi thời — đây vẫn là phương tiện chủ yếu để trình bày và tương tác với dữ liệu. Dashboard phân tích, báo cáo tương tác, hệ thống ERP/CRM đều chạy trên web.
+- Vấn đề là **cách dạy**: ngành HTTT không cần học HTML/CSS thuần 45 tiết. Dùng AI agent (v0.dev, Cursor) để tạo UI trong vài giây, rồi tập trung vào phần HTTT thực sự cần: kết nối API nghiệp vụ, data visualization, tích hợp "chat with data".
+- Sinh viên HTTT cần **biết web ở tầng tích hợp**, không phải tầng giao diện.
 
-**Thay thế:** Phân bổ 3 TC này vào học phần **"Data Engineering & ETL Pipeline"** (xây dựng luồng dữ liệu tự động).
+**Thay thế:** Gộp Web cơ bản + Web nâng cao thành **AI-native web & data application** (6 TC) — tập trung data dashboard (Streamlit, Grafana), REST API tới ERP/CRM, AI-powered BI ("hỏi báo cáo bằng ngôn ngữ tự nhiên"), không phải cú pháp HTML.
+
 
 ### 4.2. Tính toán mềm (CSE452 — 3 TC) → ĐỀ XUẤT CHUYỂN TỰ CHỌN
 
@@ -83,15 +84,15 @@ Tuy nhiên, chương trình hiện tại vẫn đang đào tạo sinh viên theo
 
 ---
 
-## V. ĐỀ XUẤT CHƯƠNG TRÌNH ĐÀO TẠO MỚI (THAM KHẢO — 140 TC)
+## V. Đề xuất chương trình đào tạo mới (tham khảo — 140 TC)
 
-### KHỐI I: GIÁO DỤC ĐẠI CƯƠNG (37 TC — GIỮ NGUYÊN)
+### Khối I: Giáo dục đại cương (37 TC — giữ nguyên)
 
 *(Bao gồm tất cả các môn Lý luận chính trị, Toán, Tiếng Anh, Giáo dục quốc phòng. Riêng CSE105 cần tăng nội dung AI Literacy từ "dùng AI cơ bản" lên "hiểu hallucination, kiểm chứng, và đạo đức AI".)*
 
 ---
 
-### KHỐI II: NỀN TẢNG CNTT & DỮ LIỆU (27 TC)
+### Khối II: Nền tảng CNTT & dữ liệu (27 TC)
 
 | TT | Học phần | TC | HK | Ghi chú thay đổi |
 |----|----------|----|----|-----------------|
@@ -107,7 +108,7 @@ Tuy nhiên, chương trình hiện tại vẫn đang đào tạo sinh viên theo
 
 ---
 
-### KHỐI III: LÕI HỆ THỐNG THÔNG TIN & AI (30 TC)
+### Khối III: Lõi hệ thống thông tin & AI (30 TC)
 
 | TT | Học phần | TC | HK | Ghi chú thay đổi |
 |----|----------|----|----|-----------------|
@@ -124,7 +125,7 @@ Tuy nhiên, chương trình hiện tại vẫn đang đào tạo sinh viên theo
 
 ---
 
-### KHỐI IV: ENTERPRISE SYSTEMS & SPECIALIZATION (15 TC, chọn 1 track)
+### Khối IV: Hệ thống doanh nghiệp & chuyên ngành (15 TC, chọn 1 track)
 
 **Track A — AI & Advanced Analytics:**
 
@@ -158,7 +159,7 @@ Tuy nhiên, chương trình hiện tại vẫn đang đào tạo sinh viên theo
 
 ---
 
-### KHỐI V: THỰC TẬP & ĐỒ ÁN (14 TC)
+### Khối V: Thực tập & đồ án (14 TC)
 
 | TT | Học phần | TC | HK | Yêu cầu mới |
 |----|----------|----|----|------------|
@@ -167,7 +168,7 @@ Tuy nhiên, chương trình hiện tại vẫn đang đào tạo sinh viên theo
 
 ---
 
-## VI. ĐỔI MỚI PHƯƠNG PHÁP ĐÁNH GIÁ
+## VI. Đổi mới phương pháp đánh giá
 
 | Loại môn | Phương pháp kiểm tra mới |
 |----------|------------------------|
@@ -178,7 +179,7 @@ Tuy nhiên, chương trình hiện tại vẫn đang đào tạo sinh viên theo
 
 ---
 
-## VII. ĐỊNH HƯỚNG NGHỀ NGHIỆP ĐẦU RA (2030)
+## VII. Định hướng nghề nghiệp đầu ra (2030)
 
 | Vị trí | Kỹ năng cốt lõi |
 |--------|-----------------|
@@ -190,7 +191,7 @@ Tuy nhiên, chương trình hiện tại vẫn đang đào tạo sinh viên theo
 
 ---
 
-## VIII. KẾT LUẬN VÀ KIẾN NGHỊ
+## VIII. Kết luận và kiến nghị
 
 HTTT là ngành có **"vùng an toàn" cao nhất trong kỷ nguyên AI** — vì AI không thể tự hiểu nghiệp vụ tổ chức. Nhưng điều đó không có nghĩa là chương trình có thể đứng yên. Sinh viên HTTT cần được trang bị để **làm việc cùng AI, cung cấp ngữ cảnh nghiệp vụ cho AI**, và biến dữ liệu tổ chức thành tài sản số.
 

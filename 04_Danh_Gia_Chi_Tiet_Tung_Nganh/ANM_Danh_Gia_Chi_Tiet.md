@@ -1,5 +1,5 @@
 # BÁO CÁO RÀ SOÁT VÀ ĐỀ XUẤT NÂNG CẤP CHƯƠNG TRÌNH ĐÀO TẠO
-## NGÀNH AN NINH MẠNG (ANM) — Tầm nhìn 2026–2030
+## Ngành an ninh mạng (ANM) — Tầm nhìn 2026–2030
 
 > **Kính gửi:** Hội đồng Khoa học & Đào tạo Khoa CNTT
 > **Người thực hiện:** Tổ Rà soát Chương trình
@@ -7,7 +7,7 @@
 
 ---
 
-## I. TÓM TẮT ĐỀ XUẤT
+## I. Tóm tắt đề xuất
 
 An ninh mạng đang bước vào giai đoạn biến đổi chiến lược sâu sắc nhất kể từ khi Internet ra đời. Cuộc chơi thay đổi theo hai hướng đồng thời: **(1) AI trở thành vũ khí tấn công cực mạnh** — hacker dùng LLM để tự động sinh mã độc đa hình (polymorphic malware), dò quét lỗ hổng quy mô lớn, tạo nội dung phishing cực kỳ thuyết phục; **(2) AI trở thành lá chắn không thể thiếu** — các hệ thống SIEM hiện đại, EDR thế hệ mới đều dùng ML để phát hiện bất thường.
 
@@ -17,7 +17,7 @@ Nguy cơ nghiêm trọng nhất của chương trình ANM hiện tại: **đang 
 
 ---
 
-## II. CHẨN ĐOÁN CHƯƠNG TRÌNH HIỆN TẠI
+## II. Chẩn đoán chương trình hiện tại
 
 ### Điểm mạnh cần bảo tồn
 - Nền tảng kỹ thuật vững: Mật mã ứng dụng, Lập trình mạng, Quản trị mạng, Thiết kế mạng.
@@ -32,7 +32,7 @@ Nguy cơ nghiêm trọng nhất của chương trình ANM hiện tại: **đang 
 
 ---
 
-## III. PHÂN TÍCH RỦI RO AI — TỪNG HỌC PHẦN
+## III. Phân tích rủi ro AI — từng học phần
 
 | Học phần | Mã HP | TC | Rủi ro AI | Quyết định đề xuất |
 |----------|-------|----|-----------|-------------------|
@@ -68,16 +68,17 @@ Nguy cơ nghiêm trọng nhất của chương trình ANM hiện tại: **đang 
 
 ---
 
-## IV. HỌC PHẦN ĐỀ XUẤT LOẠI BỎ HOẶC THAY THẾ — LUẬN GIẢI
+## IV. Học phần đề xuất loại bỏ hoặc thay thế — luận giải
 
-### 4.1. Phát triển ứng dụng Web cơ bản (CSE122 — 3 TC) → LOẠI BỎ & THAY THẾ
+### 4.1. Phát triển ứng dụng Web cơ bản (CSE122 — 3 TC) → TÁI ĐỊNH HƯỚNG CHO ANM
 
 **Luận cứ:**
-- Sinh viên ANM không cần dạy HTML/CSS để *xây dựng* website. Họ cần dạy *tấn công* và *bảo vệ* website.
-- Học HTML cơ bản không tạo ra kỹ năng tìm lỗ hổng XSS, CSRF, SQL Injection.
-- 3 tín chỉ này có thể dành cho **"Bảo mật ứng dụng Web & OWASP Top 10"** — học cách tìm và khai thác lỗ hổng Web thực tế.
+- Web không phải kỹ năng cần loại bỏ khỏi ANM — ngược lại, web là **mặt trận tấn công chủ yếu** trong an ninh mạng thực tế. OWASP Top 10 là tập hợp các lỗ hổng *đều* ở tầng ứng dụng web.
+- Vấn đề là **cách dạy cũ sai mục tiêu**: dạy sinh viên ANM *xây dựng* website (HTML form, PHP CRUD) là hoàn toàn không phù hợp. Họ cần dạy *tấn công và phòng thủ* trên nền tảng web.
+- Môn học cần được **tái định hướng hoàn toàn nội dung**, không bỏ mà đổi mục tiêu 180 độ.
 
-**Thay thế:** Học phần **"Web Application Security & Bug Bounty"** — dạy Burp Suite, OWASP Testing Guide, thực hành trên nền tảng HackTheBox/TryHackMe.
+**Thay thế nội dung:** Học phần **"Bảo mật ứng dụng Web & OWASP"** — dạy Burp Suite, OWASP Testing Guide, khai thác XSS/CSRF/SQLi thực tế, thực hành trên HackTheBox/TryHackMe. Dùng AI agent để tự động hóa dò quét lỗ hổng web.
+
 
 ### 4.2. Công nghệ phần mềm truyền thống (CSE481 — 3 TC) → THAY BẰNG DEVSECOPS
 
@@ -96,15 +97,15 @@ Nguy cơ nghiêm trọng nhất của chương trình ANM hiện tại: **đang 
 
 ---
 
-## V. ĐỀ XUẤT CHƯƠNG TRÌNH ĐÀO TẠO MỚI (THAM KHẢO — 140 TC)
+## V. Đề xuất chương trình đào tạo mới (tham khảo — 140 TC)
 
-### KHỐI I: GIÁO DỤC ĐẠI CƯƠNG (37 TC — GIỮ NGUYÊN)
+### Khối I: Giáo dục đại cương (37 TC — giữ nguyên)
 
 *(Giữ nguyên cấu trúc. Đặc biệt, Toán rời rạc có giá trị nền tảng cao cho Mật mã học — nên liên kết bài tập rõ ràng hơn.)*
 
 ---
 
-### KHỐI II: NỀN TẢNG KỸ THUẬT (27 TC)
+### Khối II: Nền tảng kỹ thuật (27 TC)
 
 | TT | Học phần | TC | HK | Ghi chú thay đổi |
 |----|----------|----|----|-----------------|
@@ -120,7 +121,7 @@ Nguy cơ nghiêm trọng nhất của chương trình ANM hiện tại: **đang 
 
 ---
 
-### KHỐI III: LÕI AN NINH MẠNG (30 TC — BẮT BUỘC)
+### Khối III: Lõi an ninh mạng (30 TC — bắt buộc)
 
 | TT | Học phần | TC | HK | Ghi chú thay đổi |
 |----|----------|----|----|-----------------|
@@ -137,9 +138,9 @@ Nguy cơ nghiêm trọng nhất của chương trình ANM hiện tại: **đang 
 
 ---
 
-### KHỐI IV: CHUYÊN SÂU — TỰ CHỌN (15 TC, chọn 1 track)
+### Khối IV: Chuyên sâu — tự chọn (15 TC, chọn 1 track)
 
-**Track A — AI Security & LLM Defense (HOÀN TOÀN MỚI):**
+**Track A — AI security & LLM defense (hoàn toàn mới):**
 
 | TT | Học phần | TC | HK |
 |----|----------|----|----|
@@ -149,17 +150,17 @@ Nguy cơ nghiêm trọng nhất của chương trình ANM hiện tại: **đang 
 | 23 | Quản trị mạng & Tự động hóa bảo mật | 3 | 7 |
 | 24 | Chuyên đề AN ninh mạng (AI era) | 3 | 7 |
 
-**Track B — Red Team & Offensive Security:**
+**Track B — Red team & offensive security:**
 
 | TT | Học phần | TC | HK |
 |----|----------|----|----|
-| 20 | Red Team Operations | 3 | 6 |
-| 21 | Kỹ thuật liên mạng & Exploitation nâng cao | 3 | 6 |
-| 22 | Social Engineering & Human Layer Security | 3 | 7 |
-| 23 | Kết nối vạn vật & IoT Security | 3 | 7 |
-| 24 | Chuỗi khối & Blockchain Security | 3 | 7 |
+| 20 | Red team operations | 3 | 6 |
+| 21 | Kỹ thuật liên mạng & exploitation nâng cao | 3 | 6 |
+| 22 | Social engineering & human layer security | 3 | 7 |
+| 23 | Kết nối vạn vật & IoT security | 3 | 7 |
+| 24 | Chuỗi khối & blockchain security | 3 | 7 |
 
-**Track C — Blue Team & Forensics:**
+**Track C — Blue team & forensics:**
 
 | TT | Học phần | TC | HK |
 |----|----------|----|----|
@@ -171,7 +172,7 @@ Nguy cơ nghiêm trọng nhất của chương trình ANM hiện tại: **đang 
 
 ---
 
-### KHỐI V: THỰC TẬP & ĐỒ ÁN (14 TC)
+### Khối V: Thực tập & đồ án (14 TC)
 
 | TT | Học phần | TC | HK | Yêu cầu mới |
 |----|----------|----|----|------------|
@@ -180,7 +181,7 @@ Nguy cơ nghiêm trọng nhất của chương trình ANM hiện tại: **đang 
 
 ---
 
-## VI. ĐỔI MỚI PHƯƠNG PHÁP ĐÁNH GIÁ
+## VI. Đổi mới phương pháp đánh giá
 
 | Loại môn | Phương pháp kiểm tra mới |
 |----------|------------------------|
@@ -191,7 +192,7 @@ Nguy cơ nghiêm trọng nhất của chương trình ANM hiện tại: **đang 
 
 ---
 
-## VII. ĐỊNH HƯỚNG NGHỀ NGHIỆP ĐẦU RA (2030)
+## VII. Định hướng nghề nghiệp đầu ra (2030)
 
 | Vị trí | Kỹ năng cốt lõi từ CTĐT mới |
 |--------|-----------------------------|
@@ -203,7 +204,7 @@ Nguy cơ nghiêm trọng nhất của chương trình ANM hiện tại: **đang 
 
 ---
 
-## VIII. KẾT LUẬN VÀ KIẾN NGHỊ
+## VIII. Kết luận và kiến nghị
 
 An ninh mạng đang bước vào giai đoạn **"AI vs AI"** — kẻ tấn công dùng AI để tìm lỗ hổng, người bảo vệ phải dùng AI để phát hiện. Sinh viên ANM không được đào tạo AI là một thiếu sót nghiêm trọng trong năm 2026.
 

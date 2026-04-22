@@ -1,5 +1,5 @@
 # BÁO CÁO RÀ SOÁT VÀ ĐỀ XUẤT NÂNG CẤP CHƯƠNG TRÌNH ĐÀO TẠO
-## NGÀNH CÔNG NGHỆ THÔNG TIN (CNTT) — Tầm nhìn 2026–2030
+## Ngành công nghệ thông tin (CNTT) — Tầm nhìn 2026–2030
 
 > **Kính gửi:** Hội đồng Khoa học & Đào tạo Khoa CNTT
 > **Người thực hiện:** Tổ Rà soát Chương trình
@@ -7,7 +7,7 @@
 
 ---
 
-## I. TÓM TẮT ĐỀ XUẤT
+## I. Tóm tắt đề xuất
 
 Ngành CNTT hiện đang rơi vào tình trạng "biết mỗi thứ một ít" — sinh viên ra trường không đủ sâu để làm System Engineer, không đủ kiến thức AI để làm AI Engineer, không đủ kỹ năng Cloud để làm DevOps. Đây là hệ quả của việc chương trình cố gắng bao phủ quá rộng mà không có định vị rõ ràng.
 
@@ -15,7 +15,7 @@ Trong kỷ nguyên AI, ngành CNTT cần tái định vị thành **"Cloud & Int
 
 ---
 
-## II. CHẨN ĐOÁN CHƯƠNG TRÌNH HIỆN TẠI
+## II. Chẩn đoán chương trình hiện tại
 
 ### Điểm mạnh cần bảo tồn
 - Nền tảng hệ thống vững: Kiến trúc máy tính, HĐH, Mạng máy tính.
@@ -30,7 +30,7 @@ Trong kỷ nguyên AI, ngành CNTT cần tái định vị thành **"Cloud & Int
 
 ---
 
-## III. PHÂN TÍCH RỦI RO AI — TỪNG HỌC PHẦN
+## III. Phân tích rủi ro AI — từng học phần
 
 | Học phần | Mã HP | TC | Rủi ro AI | Quyết định đề xuất |
 |----------|-------|----|-----------|-------------------|
@@ -62,13 +62,13 @@ Trong kỷ nguyên AI, ngành CNTT cần tái định vị thành **"Cloud & Int
 
 ---
 
-## IV. HỌC PHẦN ĐỀ XUẤT LOẠI BỎ HOẶC GỘP
+## IV. Học phần đề xuất loại bỏ hoặc gộp
 
-### 4.1. Phát triển ứng dụng Web cơ bản (CSE122 — 3 TC) → GỘP/GIẢM
+### 4.1. Phát triển ứng dụng Web cơ bản (CSE122 — 3 TC) → TÁI ĐỊNH HƯỬNG
 
-**Luận cứ:** HTML/CSS/JS cơ bản có thể học trong 2 tuần với AI. v0.dev tạo toàn bộ UI từ text trong vài giây. 45 tiết dạy nội dung này là lãng phí trực tiếp tài nguyên đào tạo ngành CNTT — vốn cần đi sâu vào hệ thống và cơ sở hạ tầng.
+**Luận cứ:** Web không lỗi thời — web là giao diện của mọi hệ thống cloud. Kỹ sư CNTT cần biết xây dựng web app chạy trên cloud, vận hành cùng AI. Vấn đề là **cách dạy**: 45 tiết ghi nhớ HTML/CSS/JS thuần là không phù hợp — dùng AI agent tạo UI trong vài giây, trọng tâm phải là system integration, API gateway và monitoring.
 
-**Thay thế:** Phân bổ TC này vào **DevOps & Cloud Fundamentals**.
+**Thay thế:** Gộp Web cơ bản + Web nâng cao thành **AI-native web & systems application** (6 TC). Mọi đồ án bắt buộc tích hợp ít nhất một tính năng AI, deploy thực tế lên cloud.
 
 ### 4.2. Trí tuệ nhân tạo (CSE492) ở dạng "Nhập môn" → NÂNG CẤP TRIỆT ĐỂ
 
@@ -76,15 +76,15 @@ Trong kỷ nguyên AI, ngành CNTT cần tái định vị thành **"Cloud & Int
 
 ---
 
-## V. ĐỀ XUẤT CHƯƠNG TRÌNH ĐÀO TẠO MỚI (THAM KHẢO — 140 TC)
+## V. Đề xuất chương trình đào tạo mới (tham khảo — 140 TC)
 
-### KHỐI I: GIÁO DỤC ĐẠI CƯƠNG (37 TC — GIỮ NGUYÊN)
+### Khối I: Giáo dục đại cương (37 TC — giữ nguyên)
 
 *(Giữ nguyên cấu trúc hiện tại. Riêng CSE105 "Kỹ năng số & Khai thác AI" cần nâng cao nội dung Prompt Engineering từ mức "biết dùng" lên mức "hiểu giới hạn và kiểm chứng AI".)*
 
 ---
 
-### KHỐI II: NỀN TẢNG KHOA HỌC MÁY TÍNH (27 TC)
+### Khối II: Nền tảng khoa học máy tính (27 TC)
 
 | TT | Học phần | TC | HK | Ghi chú thay đổi |
 |----|----------|----|----|-----------------|
@@ -100,7 +100,7 @@ Trong kỷ nguyên AI, ngành CNTT cần tái định vị thành **"Cloud & Int
 
 ---
 
-### KHỐI III: LÕI CNTT & AI ENGINEERING (27 TC)
+### Khối III: Lõi CNTT & AI engineering (27 TC)
 
 | TT | Học phần | TC | HK | Ghi chú thay đổi |
 |----|----------|----|----|-----------------|
@@ -116,7 +116,7 @@ Trong kỷ nguyên AI, ngành CNTT cần tái định vị thành **"Cloud & Int
 
 ---
 
-### KHỐI IV: CHUYÊN NGÀNH — TỰ CHỌN (15 TC, chọn 1 track)
+### Khối IV: Chuyên ngành — tự chọn (15 TC, chọn 1 track)
 
 **Track A — AI Systems & MLOps:**
 
@@ -150,7 +150,7 @@ Trong kỷ nguyên AI, ngành CNTT cần tái định vị thành **"Cloud & Int
 
 ---
 
-### KHỐI V: THỰC TẬP & ĐỒ ÁN (14 TC)
+### Khối V: Thực tập & đồ án (14 TC)
 
 | TT | Học phần | TC | HK | Yêu cầu mới |
 |----|----------|----|----|------------|
@@ -159,7 +159,7 @@ Trong kỷ nguyên AI, ngành CNTT cần tái định vị thành **"Cloud & Int
 
 ---
 
-## VI. ĐỔI MỚI PHƯƠNG PHÁP ĐÁNH GIÁ
+## VI. Đổi mới phương pháp đánh giá
 
 | Học phần loại | Phương pháp kiểm tra mới |
 |---------------|------------------------|
@@ -170,7 +170,7 @@ Trong kỷ nguyên AI, ngành CNTT cần tái định vị thành **"Cloud & Int
 
 ---
 
-## VII. ĐỊNH HƯỚNG NGHỀ NGHIỆP ĐẦU RA (2030)
+## VII. Định hướng nghề nghiệp đầu ra (2030)
 
 | Vị trí | Kỹ năng cốt lõi được đào tạo |
 |--------|------------------------------|
@@ -182,7 +182,7 @@ Trong kỷ nguyên AI, ngành CNTT cần tái định vị thành **"Cloud & Int
 
 ---
 
-## VIII. KẾT LUẬN VÀ KIẾN NGHỊ
+## VIII. Kết luận và kiến nghị
 
 Trong kỷ nguyên AI, ngành CNTT không nên đào tạo coder — mà phải đào tạo **"Builders of Intelligent Infrastructure"**: những người biết dựng lên và vận hành nền tảng mà cả doanh nghiệp lẫn AI Agent hoạt động trên đó.
 
