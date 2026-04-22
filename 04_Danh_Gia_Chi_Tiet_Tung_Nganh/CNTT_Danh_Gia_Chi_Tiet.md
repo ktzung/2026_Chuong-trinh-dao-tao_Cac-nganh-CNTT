@@ -43,7 +43,7 @@ Trong kỷ nguyên AI, ngành CNTT cần tái định vị thành **"Cloud & Int
 | Mạng máy tính | CSE489 | 3 | 🟢 Thấp | Giữ — thêm Software-Defined Networking |
 | Lập trình hướng đối tượng | CSE116 | 3 | 🟡 Trung bình | Giữ — gộp với Design Patterns |
 | Hệ điều hành | CSE482 | 3 | 🟢 Thấp | Giữ — thêm Linux Kernel, Container internals |
-| Phát triển UD Web cơ bản | CSE122 | 3 | 🔴 **Cao** | **Gộp hoặc giảm** — AI làm HTML/CSS trong vài giây |
+| Phát triển UD Web cơ bản | CSE122 | 3 | 🟡 **Trung bình** | **Tái định hướng** — không loại bỏ. Gộp với Web nâng cao → **AI-native web & systems application** (6 TC); trọng tâm system integration, API gateway và cloud deployment |
 | Điện toán đám mây | CSE121 | 3 | 🟢 Thấp | Giữ — **nâng thành BẮT BUỘC** ở HK3, không phải HK4 |
 | Phân tích dữ liệu | CSE131 | 3 | 🟡 Trung bình | Giữ — tích hợp Python Data Stack (Pandas, SQL) |
 | Trí tuệ nhân tạo | CSE492 | 3 | 🟡 Trung bình | **Nâng cấp toàn diện** — tách thành ML Foundations |
@@ -64,7 +64,7 @@ Trong kỷ nguyên AI, ngành CNTT cần tái định vị thành **"Cloud & Int
 
 ## IV. Học phần đề xuất loại bỏ hoặc gộp
 
-### 4.1. Phát triển ứng dụng Web cơ bản (CSE122 — 3 TC) → TÁI ĐỊNH HƯỬNG
+### 4.1. Phát triển ứng dụng Web cơ bản (CSE122 — 3 TC) → TÁI ĐỊNH HƯỚNG, KHÔNG LOẠI BỎ
 
 **Luận cứ:** Web không lỗi thời — web là giao diện của mọi hệ thống cloud. Kỹ sư CNTT cần biết xây dựng web app chạy trên cloud, vận hành cùng AI. Vấn đề là **cách dạy**: 45 tiết ghi nhớ HTML/CSS/JS thuần là không phù hợp — dùng AI agent tạo UI trong vài giây, trọng tâm phải là system integration, API gateway và monitoring.
 

@@ -41,7 +41,7 @@ Ngành Kỹ thuật Phần mềm đứng trước nguy cơ đào thải lớn nh
 | Cơ sở dữ liệu | CSE484 | 3 | 🟡 Trung bình | Giữ — thêm Vector DB, NoSQL |
 | **Lập trình Windows** | CSE383 | 3 | 🔴 **Cao** | **LOẠI BỎ** — thay bằng Cloud Systems |
 | **Phát triển UD với Java** | CSE114 | 3 | 🔴 **Cao** | **Chuyển sang tự chọn** — thay bằng Backend Engineering |
-| **Phát triển UD Web cơ bản** | CSE122 | 3 | 🔴 **Cao** | **Gộp** vào Web nâng cao thành 1 môn Architecture |
+| **Phát triển UD Web cơ bản** | CSE122 | 3 | 🟡 **Trung bình** | **Tái định hướng** — không loại bỏ. Gộp với Web nâng cao → **AI-native web & application development** (6 TC); trọng tâm kiến trúc, bảo mật và tích hợp AI vào sản phẩm |
 | Phát triển UD Web nâng cao | CSE124 | 3 | 🟡 Trung bình | Giữ — nâng cấp sang Cloud-Native Architecture |
 | Mẫu thiết kế phần mềm | CSE119 | 3 | 🟢 Thấp | Giữ — mở rộng sang Microservices patterns |
 | Kiểm thử & ĐBCL PM | CSE462 | 3 | 🟡 Trung bình | Giữ — thêm AI Test Generation, Mutation Testing |
@@ -73,7 +73,7 @@ Ngành Kỹ thuật Phần mềm đứng trước nguy cơ đào thải lớn nh
 
 **Phương án thay thế:** Học phần **"Backend Engineering & API Design"** — language-agnostic, dạy RESTful, GraphQL, authentication, database optimization.
 
-### 4.3. Phát triển ứng dụng Web cơ bản (CSE122 — 3 TC) → TÁI ĐỊNH HƯỬNG, KHÔNG LOẠI Bỏ
+### 4.3. Phát triển ứng dụng Web cơ bản (CSE122 — 3 TC) → TÁI ĐỊNH HƯỚNG, KHÔNG LOẠI BỎ
 
 **Luận cứ:**
 - Web không phải kỹ năng lỗi thời — đây vẫn là nền tảng của ứng dụng di động (PWA, React Native, WebView), ứng dụng doanh nghiệp và là vị trí việc làm phổ biến nhất trên thị trường.
