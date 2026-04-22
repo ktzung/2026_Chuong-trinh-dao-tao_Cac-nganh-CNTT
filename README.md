@@ -1,6 +1,6 @@
 # 🎓 Rà soát và đề xuất nâng cấp chương trình đào tạo CNTT (2026–2030)
 
-> **Trường Đại học Thăng Long (TLU) — Khối ngành Công nghệ Thông tin**  
+> **Trường Đại học Thủy lợi (TLU) — Khối ngành Công nghệ Thông tin**  
 > Tài liệu chiến lược: Tái cấu trúc toàn diện 5 chương trình đào tạo CNTT trong kỷ nguyên AI Agent.
 
 ---
