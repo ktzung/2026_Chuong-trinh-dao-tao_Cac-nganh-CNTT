@@ -42,7 +42,7 @@ Tuy nhiên, chương trình hiện tại vẫn đang đào tạo sinh viên theo
 | Mạng máy tính | CSE489 | 3 | 🟢 Thấp | Giữ nguyên |
 | Lập trình hướng đối tượng | CSE116 | 3 | 🟡 Trung bình | Giữ ở mức nhẹ — HTTT không cần OOP sâu |
 | Hệ điều hành | CSE482 | 3 | 🟢 Thấp | Giữ nguyên |
-| Phát triển UD Web cơ bản | CSE122 | 3 | 🔴 **Cao** | **Cân nhắc loại bỏ** — HTTT không cần làm Web frontend |
+| Phát triển UD Web cơ bản | CSE122 | 3 | 🟡 **Trung bình** | **Tái định hướng** — không loại bỏ. Dạy data dashboard, AI-powered BI, kết nối API nghiệp vụ; dùng AI agent tạo UI |
 | Điện toán đám mây | CSE121 | 3 | 🟢 Thấp | **Nâng thành BẮT BUỘC** ở HK3; thêm Cloud Data services |
 | Phân tích dữ liệu | CSE131 | 3 | 🟡 Trung bình | Giữ — nâng cấp sang Python Data Stack hoàn chỉnh |
 | Trí tuệ nhân tạo | CSE492 | 3 | 🟡 Trung bình | **Nâng cấp** sang AI for Business Applications |
@@ -196,7 +196,7 @@ Tuy nhiên, chương trình hiện tại vẫn đang đào tạo sinh viên theo
 HTTT là ngành có **"vùng an toàn" cao nhất trong kỷ nguyên AI** — vì AI không thể tự hiểu nghiệp vụ tổ chức. Nhưng điều đó không có nghĩa là chương trình có thể đứng yên. Sinh viên HTTT cần được trang bị để **làm việc cùng AI, cung cấp ngữ cảnh nghiệp vụ cho AI**, và biến dữ liệu tổ chức thành tài sản số.
 
 **Kiến nghị cụ thể:**
-1. **Loại bỏ** Phát triển ứng dụng Web cơ bản (CSE122) khỏi chương trình HTTT.
+1. **Tái định hướng** Phát triển ứng dụng Web cơ bản (CSE122) thành môn data dashboard & AI-powered BI — gộp với Web nâng cao (6 TC).
 2. **Chuyển tự chọn** Tính toán mềm (CSE452); thay bằng LLM Engineering cho Doanh nghiệp.
 3. **Nâng thành bắt buộc:** Điện toán đám mây (HK3), Kho dữ liệu, Học máy ứng dụng.
 4. **Bổ sung 2 môn mới bắt buộc:** Data Engineering & ETL Pipeline; AI Engineering cho Doanh nghiệp.

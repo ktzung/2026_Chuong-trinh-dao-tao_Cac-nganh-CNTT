@@ -45,7 +45,7 @@ Nguy cơ nghiêm trọng nhất của chương trình ANM hiện tại: **đang 
 | Mạng máy tính | CSE489 | 3 | 🟢 Thấp | Giữ — **nền tảng cốt lõi** của ANM |
 | Lập trình hướng đối tượng | CSE116 | 3 | 🟡 Trung bình | Giữ — tập trung Secure Coding từ đây |
 | Hệ điều hành | CSE482 | 3 | 🟢 Thấp | Giữ — **rất quan trọng**: process, syscall, privilege escalation |
-| Phát triển UD Web cơ bản | CSE122 | 3 | 🔴 **Cao** | **LOẠI BỎ** — thay bằng Web Security & OWASP Top 10 |
+| Phát triển UD Web cơ bản | CSE122 | 3 | 🟡 **Trung bình** | **Tái định hướng** — không loại bỏ. Đổi mục tiêu 180°: từ *xây* web sang *tấn công & phòng thủ* web (Burp Suite, OWASP Top 10) |
 | Nhập môn ATBMTT | CSE400 | 3 | 🟢 Thấp | Giữ — **bắt buộc** nhưng cần cập nhật AI threat landscape |
 | Điện toán đám mây | CSE121 | 3 | 🟢 Thấp | **Nâng thành BẮT BUỘC** — thêm Cloud Security (IAM, VPC, SIEM) |
 | Phân tích dữ liệu | CSE131 | 3 | 🟡 Trung bình | Giữ — tập trung Security Log Analytics |
@@ -211,7 +211,7 @@ An ninh mạng đang bước vào giai đoạn **"AI vs AI"** — kẻ tấn cô
 Đặc biệt, **bảo mật cho các hệ thống AI (AI Security / LLM Security)** là một lĩnh vực cực kỳ mới mẻ, khát nhân lực và trả lương rất cao — đây là cơ hội chiến lược đặc biệt mà chương trình ANM có thể đi đầu tại Việt Nam nếu hành động ngay.
 
 **Kiến nghị cụ thể:**
-1. **Loại bỏ** Phát triển ứng dụng Web cơ bản (CSE122) và thay bằng **Web Application Security & OWASP**.
+1. **Tái định hướng** Phát triển ứng dụng Web cơ bản (CSE122) thành **Bảo mật ứng dụng Web & OWASP** — dạy Burp Suite, khai thác lỗ hổng web thực tế.
 2. **Thay CSE481** bằng **DevSecOps & Secure Supply Chain**.
 3. **Loại khỏi track tự chọn ANM:** Lập trình Windows (CSE383), Java ứng dụng (CSE114).
 4. **Bổ sung bắt buộc:** AI ứng dụng trong An ninh mạng (Môn mới).

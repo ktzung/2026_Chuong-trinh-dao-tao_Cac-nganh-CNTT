@@ -46,7 +46,7 @@ Thực tế hiện nay: OpenAI, Google DeepMind, Meta FAIR đã giải quyết b
 | Mạng máy tính | CSE489 | 3 | 🟡 Trung bình | Giảm xuống 2 TC hoặc gộp — TTNT không cần quá sâu |
 | Lập trình hướng đối tượng | CSE116 | 3 | 🟡 Trung bình | Giữ — học qua Python OOP |
 | Hệ điều hành | CSE482 | 3 | 🟢 Thấp | Giữ ở mức nhẹ — chú trọng Linux & CLI |
-| Phát triển UD Web cơ bản | CSE122 | 3 | 🔴 **Cao** | **LOẠI BỎ** — không liên quan đến định hướng ngành |
+| Phát triển UD Web cơ bản | CSE122 | 3 | 🟡 **Trung bình** | **Tái định hướng** — không loại bỏ. Dạy deploy AI model lên web (FastAPI, Gradio, Streamlit); dùng AI agent tạo UI, tập trung API layer |
 | Điện toán đám mây | CSE121 | 3 | 🟢 Thấp | **Nâng thành BẮT BUỘC** — Cloud là môi trường deploy AI |
 | Phân tích dữ liệu | CSE131 | 3 | 🟡 Trung bình | Giữ — tăng cường Python Data Stack |
 | Trí tuệ nhân tạo | CSE492 | 3 | 🟡 Trung bình | **Thay bằng** AI Foundations toàn diện hơn |
@@ -201,7 +201,7 @@ Thực tế hiện nay: OpenAI, Google DeepMind, Meta FAIR đã giải quyết b
 Ngành TTNT đang có vị thế tốt nhất trong tất cả 5 ngành — vì AI đang ngày càng cần những người **hiểu AI từ bên trong**. Nhưng cần sự dịch chuyển mạnh từ "nghiên cứu" sang "kỹ thuật": không chỉ biết train model, mà phải biết deploy, monitor, và scale.
 
 **Kiến nghị cụ thể:**
-1. **Loại bỏ** Phát triển ứng dụng Web cơ bản (CSE122) và Công nghệ phần mềm (CSE481) truyền thống.
+1. **Tái định hướng** Phát triển ứng dụng Web cơ bản (CSE122) thành môn deploy AI model (FastAPI + Streamlit/Gradio). Thay thế Thư viện đồ họa (CSE391) bằng môn LLMOps.
 2. **Nâng thành bắt buộc:** AI tạo sinh & LLMs (CSE134), Hệ thống tác tử thông minh (CSE107).
 3. **Bổ sung môn mới bắt buộc:** MLOps & AI System Deployment (LLMOps, model monitoring).
 4. **Đổi yêu cầu đồ án:** Bắt buộc phải có AI Product hoặc bài báo khoa học — không chấp nhận đồ án "nghiên cứu thuật toán X" thuần lý thuyết.
