@@ -216,7 +216,7 @@ Nhằm **vô hiệu hóa gian lận AI** và biến AI thành công cụ hợp p
 
 | Thuộc tính | Nội dung |
 |---|---|
-| **Đơn vị** | Trường Đại học Thăng Long (TLU) |
+| **Đơn vị** | Trường Đại học Thủy lợi (TLU) |
 | **Phạm vi** | 5 ngành CNTT: ANM, CNTT, HTTT, KTPM, TTNT |
 | **Phiên bản** | 1.0 — Tháng 4/2026 |
 | **Mục tiêu áp dụng** | Khóa tuyển sinh 2026 trở đi |
