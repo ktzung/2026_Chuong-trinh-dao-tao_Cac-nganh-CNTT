@@ -159,7 +159,7 @@ Nhằm vô hiệu hóa việc "gian lận" bằng AI và biến AI thành công 
 | :--- | :--- | :--- |
 | **Năm 1 (2025)** | **Thiết lập điểm khởi đầu** | Áp dụng quy chế thi vấn đáp ở các môn đồ án. Thay thế 1-2 môn lỗi thời (ví dụ: Lập trình Windows) bằng môn Cloud/AI cơ bản. Cấp Copilot cho giảng viên. |
 | **Năm 2 (2026)** | **Chuyển đổi phương pháp** | Áp dụng "live debugging" và nộp nhật ký prompt. Ngành KTPM và CNTT chính thức học "hệ thống tác tử / LLM" như môn bắt buộc. |
-| **Năm 3 (2028)** | **Chuyển đổi toàn diện** | Xóa bỏ hoàn toàn các môn dạy cú pháp truyền thống. CTĐT 100% chuyển sang định hướng system architecture & AI engineering. Giảng viên trở thành mentor/reviewer. |
+| **Năm 3 (2028)** | **Chuyển đổi toàn diện** | Giảm tỷ trọng và tái định hướng mục tiêu các môn dạy cú pháp: năm 1 giữ nguyên phương pháp để rèn tư duy thuật toán; năm 2–3 chuyển sang AI-assisted (sinh viên dùng AI, trọng tâm là review và kiến trúc); năm 4 hoàn toàn AI-native. CTĐT chuyển mạnh sang system architecture & AI engineering. Giảng viên trở thành mentor/reviewer. |
 
 ---
 
