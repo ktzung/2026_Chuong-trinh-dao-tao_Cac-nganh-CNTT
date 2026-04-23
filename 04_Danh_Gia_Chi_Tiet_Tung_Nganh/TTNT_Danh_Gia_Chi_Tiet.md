@@ -209,3 +209,42 @@ Ngành TTNT đang có vị thế tốt nhất trong tất cả 5 ngành — vì 
 
 ---
 *Tài liệu tham khảo: Stanford CS229/CS224N/CS231N Course Materials; fast.ai Practical Deep Learning; Hugging Face Course; MLOps Community Best Practices 2025; AI Engineer Foundation Roadmap 2025.*
+
+---
+
+## IX. Bảng phân bổ tín chỉ theo học kỳ — Khung CTĐT mới đề xuất (TTNT)
+
+> *Tổng: 140 TC. Bảng này để kiểm tra tính khả thi về tải học kỳ.*
+
+| TT | Học phần | TC | HK1 | HK2 | HK3 | HK4 | HK5 | HK6 | HK7 | HK8 |
+|:--:|----------|:--:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **I** | **GIÁO DỤC ĐẠI CƯƠNG** | **37** | | | | | | | | |
+| 1–14 | (Giữ nguyên cấu trúc — xem khung hiện tại) | 37 | 9 | 9 | 6 | 4 | 4 | 2 | 2 | 1 |
+| **II** | **GIÁO DỤC CHUYÊN NGHIỆP** | **103** | | | | | | | | |
+| **II.1** | **Nền tảng khoa học máy tính & dữ liệu** | **24** | | | | | | | | |
+| 15 | Lập trình Python chuyên sâu | 3 | 3 | | | | | | | |
+| 16 | CTDL & Giải thuật (cho AI) | 3 | | 3 | | | | | | |
+| 17 | Cơ sở dữ liệu & Vector Database | 3 | | 3 | | | | | | |
+| 18 | Kiến trúc máy tính & GPU Programming | 3 | | 3 | | | | | | |
+| 19 | Xác suất thống kê ứng dụng ML | 3 | | 3 | | | | | | |
+| 20 | Đại số tuyến tính ứng dụng AI | 3 | | | 3 | | | | | |
+| 21 | Trực quan hóa dữ liệu | 3 | | | 3 | | | | | |
+| 22 | Linux & **CLD-1: Cloud Computing cho AI** | 3 | | | 3 | | | | | |
+| **II.2** | **Lõi Machine Learning & AI Engineering** | **27** | | | | | | | | |
+| 23 | Machine Learning Foundations | 3 | | | | 3 | | | | |
+| 24 | Deep Learning & Neural Architecture | 3 | | | | 3 | | | | |
+| 25 | Xử lý ngôn ngữ tự nhiên | 3 | | | | 3 | | | | |
+| 26 | Thị giác máy tính | 3 | | | | 3 | | | | |
+| 27 | **LLM Engineering & Generative AI (BẮT BUỘC)** | 3 | | | | | 3 | | | |
+| 28 | **Hệ thống tác tử thông minh (BẮT BUỘC)** | 3 | | | | | 3 | | | |
+| 29 | Thiết kế hệ thống học máy | 3 | | | | | 3 | | | |
+| 30 | **MLOPS: Vận hành hệ thống AI (BẮT BUỘC mới)** | 3 | | | | | | 3 | | |
+| 31 | Phân tích dữ liệu lớn | 3 | | | | | | 3 | | |
+| **II.3** | **Chuyên sâu tự chọn (1 track)** | **15** | | | | | | | | |
+| 32–36 | Track A / B / C (xem mục IV) | 15 | | | | | | | 15 | |
+| **II.4** | **Thực tập & Đồ án** | **14** | | | | | | | | |
+| 37 | Thực tập tốt nghiệp | 4 | | | | | | | | 4 |
+| 38 | Đồ án tốt nghiệp | 10 | | | | | | | | 10 |
+| | **Tổng cộng** | **140** | **12** | **21** | **18** | **16** | **18** | **9** | **17** | **14** |
+
+> **Lưu ý:** HK6 nhẹ hơn để sinh viên tập trung vào thực tập doanh nghiệp. Có thể điều chỉnh một số môn tự chọn từ HK7 sang HK6 nếu cần cân bằng.

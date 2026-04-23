@@ -195,3 +195,43 @@ Trong kỷ nguyên AI, ngành CNTT không nên đào tạo coder — mà phải 
 
 ---
 *Tài liệu tham khảo: CMU CS Course Catalog 2024; NUS Computing Curriculum 2025; AWS Educate Program; VietnamWorks IT Hiring Report Q1/2026.*
+
+---
+
+## IX. Bảng phân bổ tín chỉ theo học kỳ — Khung CTĐT mới đề xuất (CNTT)
+
+> *Tổng: 140 TC. Bảng này để kiểm tra tính khả thi về tải học kỳ.*
+
+| TT | Học phần | TC | HK1 | HK2 | HK3 | HK4 | HK5 | HK6 | HK7 | HK8 |
+|:--:|----------|:--:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **I** | **GIÁO DỤC ĐẠI CƯƠNG** | **37** | | | | | | | | |
+| 1–14 | (Giữ nguyên cấu trúc — xem khung hiện tại) | 37 | 9 | 9 | 6 | 4 | 4 | 2 | 2 | 1 |
+| **II** | **GIÁO DỤC CHUYÊN NGHIỆP** | **103** | | | | | | | | |
+| **II.1** | **Nền tảng khoa học máy tính** | **27** | | | | | | | | |
+| 15 | Nhập môn lập trình & Tư duy máy tính | 3 | 3 | | | | | | | |
+| 16 | Toán rời rạc | 3 | | 3 | | | | | | |
+| 17 | CTDL & Giải thuật | 3 | | 3 | | | | | | |
+| 18 | Lập trình nâng cao & OOP | 3 | | 3 | | | | | | |
+| 19 | Kiến trúc máy tính & Hệ điều hành | 3 | | 3 | | | | | | |
+| 20 | Cơ sở dữ liệu & Hệ quản trị CSDL | 3 | | | 3 | | | | | |
+| 21 | Mạng máy tính & Hạ tầng Cloud | 3 | | | 3 | | | | | |
+| 22 | Phân tích & Thiết kế hệ thống | 3 | | | | 3 | | | | |
+| 23 | Xác suất thống kê ứng dụng ML | 3 | | | 3 | | | | | |
+| **II.2** | **Lõi CNTT & AI Engineering** | **27** | | | | | | | | |
+| 24 | WEB-A1: Phát triển web hiện đại với AI agent | 3 | | | 3 | | | | | |
+| 25 | **CLD-1: Điện toán đám mây & DevOps (BẮT BUỘC)** | 3 | | | 3 | | | | | |
+| 26 | WEB-A2: Tích hợp AI vào ứng dụng web & cloud | 3 | | | | 3 | | | | |
+| 27 | Machine Learning Foundations | 3 | | | | 3 | | | | |
+| 28 | Phân tích dữ liệu & Data Engineering | 3 | | | | 3 | | | | |
+| 29 | Kiến trúc phần mềm & Microservices | 3 | | | | 3 | | | | |
+| 30 | **AI Engineering & LLM Application (mới BB)** | 3 | | | | | 3 | | | |
+| 31 | An toàn & Bảo mật hệ thống | 3 | | | | | 3 | | | |
+| 32 | **Hệ thống phân tán (mới BB)** | 3 | | | | | 3 | | | |
+| **II.3** | **Chuyên ngành tự chọn (1 track)** | **15** | | | | | | | | |
+| 33–37 | Track A / B / C (xem mục IV) | 15 | | | | | | 9 | 6 | |
+| **II.4** | **Thực tập & Đồ án** | **14** | | | | | | | | |
+| 38 | Thực tập tốt nghiệp | 4 | | | | | | | | 4 |
+| 39 | Đồ án tốt nghiệp | 10 | | | | | | | | 10 |
+| | **Tổng cộng** | **140** | **12** | **21** | **21** | **17** | **18** | **11** | **8** | **14** |
+
+> **Lưu ý:** HK6–HK7 nhẹ hơn để sinh viên tập trung vào thực tập doanh nghiệp và chuẩn bị đồ án. Có thể điều chỉnh phân bổ tự chọn sang HK5–HK6 nếu cần cân bằng tải.

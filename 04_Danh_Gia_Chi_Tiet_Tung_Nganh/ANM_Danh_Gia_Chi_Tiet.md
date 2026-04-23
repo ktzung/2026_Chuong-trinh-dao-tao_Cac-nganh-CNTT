@@ -220,3 +220,59 @@ An ninh mạng đang bước vào giai đoạn **"AI vs AI"** — kẻ tấn cô
 
 ---
 *Tài liệu tham khảo: NIST Cybersecurity Framework 2.0; OWASP Top 10 2025; ISC2 Cybersecurity Workforce Study 2025; MITRE ATT&CK Framework v15; CISA AI Cybersecurity Collaboration Playbook 2024.*
+
+---
+
+## IX. Bảng phân bổ tín chỉ theo học kỳ — Khung CTĐT mới đề xuất (ANM)
+
+> *Tổng: 140 TC. Bảng này để kiểm tra tính khả thi về tải học kỳ.*
+
+| TT | Học phần | TC | HK1 | HK2 | HK3 | HK4 | HK5 | HK6 | HK7 | HK8 |
+|:--:|----------|:--:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **I** | **GIÁO DỤC ĐẠI CƯƠNG** | **37** | | | | | | | | |
+| 1–14 | (Giữ nguyên cấu trúc — xem khung hiện tại) | 37 | 9 | 9 | 6 | 4 | 4 | 2 | 2 | 1 |
+| **II** | **GIÁO DỤC CHUYÊN NGHIỆP** | **103** | | | | | | | | |
+| **II.1** | **Nền tảng kỹ thuật** | **27** | | | | | | | | |
+| 15 | Lập trình Python & C cho ANM | 3 | 3 | | | | | | | |
+| 16 | Toán rời rạc | 3 | | 3 | | | | | | |
+| 17 | CTDL & Giải thuật | 3 | | 3 | | | | | | |
+| 18 | Kiến trúc máy tính & Lập trình hệ thống | 3 | | 3 | | | | | | |
+| 19 | Cơ sở dữ liệu & Database Security | 3 | | | 3 | | | | | |
+| 20 | Mạng máy tính & Phân tích giao thức | 3 | | 3 | | | | | | |
+| 21 | Hệ điều hành & Bảo mật hệ thống | 3 | | | 3 | | | | | |
+| 22 | Lập trình mạng | 3 | | | 3 | | | | | |
+| 23 | Lập trình hướng đối tượng & Secure Coding | 3 | | | 3 | | | | | |
+| **II.2** | **Lõi an ninh mạng (bắt buộc)** | **30** | | | | | | | | |
+| 24 | Nhập môn AT&BMTT & AI Threat Landscape | 3 | | | | 3 | | | | |
+| 25 | Mật mã ứng dụng & Post-Quantum Crypto | 3 | | | | 3 | | | | |
+| 26 | **SEC-WEB: Bảo mật ứng dụng Web & OWASP** | 3 | | | | 3 | | | | |
+| 27 | An ninh mạng & Zero Trust Architecture | 3 | | | | | 3 | | | |
+| 28 | Phân tích mã độc & AI-Assisted RE | 3 | | | | | 3 | | | |
+| 29 | Quản lý ATTT & Frameworks | 3 | | | | | 3 | | | |
+| 30 | Lập trình an toàn & DevSecOps | 3 | | | | | 3 | | | |
+| 31 | **AI ứng dụng trong An ninh mạng (mới)** | 3 | | | | | | 3 | | |
+| 32 | Thiết kế mạng & Cloud Security | 3 | | | | | | 3 | | |
+| 33 | Đánh giá ANM & Automated Pentest | 3 | | | | | | 3 | | |
+| **II.3** | **Chuyên sâu tự chọn (1 track)** | **15** | | | | | | | | |
+| 34–38 | Track A / B / C (xem mục IV) | 15 | | | | | | | 15 | |
+| **II.4** | **Thực tập & Đồ án** | **14** | | | | | | | | |
+| 39 | Thực tập tốt nghiệp | 4 | | | | | | | | 4 |
+| 40 | Đồ án tốt nghiệp | 10 | | | | | | | | 10 |
+| | **Tổng cộng** | **140** | **12** | **12** | **18** | **16** | **17** | **18** | **15** | **14** |
+
+> **Kiểm tra tải:** Tối đa 18 TC/HK (HK3, HK6) — nằm trong giới hạn cho phép.
+
+---
+
+## X. Mapping với chứng chỉ nghề nghiệp quốc tế (ANM)
+
+| Chứng chỉ | Học phần chuẩn bị chính | Mức độ | Khuyến nghị thời điểm thi |
+|-----------|------------------------|--------|--------------------------|
+| **CompTIA Security+** | Nhập môn AT&BMTT, An ninh mạng (CSE478), SEC-WEB | Cơ bản | Cuối năm 3 (HK6) |
+| **CEH (Certified Ethical Hacker)** | SEC-WEB, Đánh giá ANM, Phân tích mã độc | Trung bình | Năm 4 hoặc sau tốt nghiệp |
+| **eWPT (Web App Penetration Tester)** | SEC-WEB | Chuyên biệt | Cuối năm 3 |
+| **OSCP (Offensive Security)** | Toàn bộ track Red Team + thực hành CTF | Nâng cao | 1–2 năm sau tốt nghiệp |
+| **CISSP** | Quản lý ATTT, Cloud Security, toàn bộ chương trình | Cao cấp | 5+ năm kinh nghiệm |
+| **AWS Security Specialty** | Cloud Security, CLD-1 | Chuyên biệt | Sau khi có AWS Associate |
+
+> **Lộ trình chứng chỉ đề xuất cho sinh viên ANM:** CompTIA Security+ (năm 3) → CEH hoặc eWPT (năm 4/sau TN) → OSCP (2–3 năm kinh nghiệm).

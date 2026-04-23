@@ -186,3 +186,62 @@ Kỹ thuật Phần mềm trong kỷ nguyên AI không mất đi bản sắc —
 
 ---
 *Tài liệu tham khảo: IEEE-CS 2023 Computing Curricula; CMU CS Course Catalog 2024; Stanford CS AI Track; VietnamWorks IT Hiring Report Q1/2026; Stack Overflow Developer Survey 2025.*
+
+---
+
+## IX. Bảng phân bổ tín chỉ theo học kỳ — Khung CTĐT mới đề xuất (KTPM)
+
+> *Tổng: 140 TC. Bảng này để kiểm tra tính khả thi về tải học kỳ (không vượt 21 TC/HK).*
+
+| TT | Học phần | TC | HK1 | HK2 | HK3 | HK4 | HK5 | HK6 | HK7 | HK8 |
+|:--:|----------|:--:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **I** | **GIÁO DỤC ĐẠI CƯƠNG** | **37** | | | | | | | | |
+| 1 | Kỹ năng số & Prompt Engineering (CSE105) | 3 | 3 | | | | | | | |
+| 2 | Kỹ năng mềm & Tinh thần khởi nghiệp (SSE111) | 3 | 3 | | | | | | | |
+| 3 | Giải tích hàm một biến (MATH111) | 3 | 3 | | | | | | | |
+| 4 | Tiếng Anh 1 (ENG213) | 3 | | 3 | | | | | | |
+| 5 | Triết học Mác–Lênin (MLP121) | 3 | | 3 | | | | | | |
+| 6 | Giải tích hàm nhiều biến (MATH122) | 3 | | 3 | | | | | | |
+| 7 | Tiếng Anh 2 (ENG224) | 3 | | | 3 | | | | | |
+| 8 | Xác suất thống kê (MATH254) | 3 | | | 3 | | | | | |
+| 9 | Đại số tuyến tính (MATH233) | 3 | | | | 3 | | | | |
+| 10 | Kinh tế chính trị Mác–Lênin (MLPE222) | 2 | | | | 2 | | | | |
+| 11 | Pháp luật đại cương (GEL111) | 2 | | | | | 2 | | | |
+| 12 | Chủ nghĩa xã hội khoa học (SCSO232) | 2 | | | | | 2 | | | |
+| 13 | Lịch sử Đảng CSVN (HCPV343) | 2 | | | | | | 2 | | |
+| 14 | Tư tưởng Hồ Chí Minh (HCMT354) | 2 | | | | | | | 2 | |
+| | GDQP (165t*), GDTC (3TC*) | * | | * | * | * | | | | |
+| **II** | **GIÁO DỤC CHUYÊN NGHIỆP** | **103** | | | | | | | | |
+| **II.1** | **Nền tảng khoa học máy tính** | **24** | | | | | | | | |
+| 15 | Tư duy máy tính & Nhập môn lập trình | 3 | 3 | | | | | | | |
+| 16 | Cấu trúc dữ liệu & Giải thuật | 3 | | 3 | | | | | | |
+| 17 | Lập trình hướng đối tượng & Design Patterns | 3 | | 3 | | | | | | |
+| 18 | Kiến trúc máy tính & Hệ điều hành | 3 | | 3 | | | | | | |
+| 19 | Mạng máy tính & Bảo mật cơ bản | 3 | | | 3 | | | | | |
+| 20 | Cơ sở dữ liệu hiện đại | 3 | | | 3 | | | | | |
+| 21 | Toán rời rạc | 3 | | 3 | | | | | | |
+| 22 | Xác suất thống kê ứng dụng | 3 | | | 3 | | | | | |
+| **II.2** | **Lõi kỹ thuật phần mềm** | **27** | | | | | | | | |
+| 23 | WEB-A1: Phát triển web hiện đại với AI agent | 3 | | | 3 | | | | | |
+| 24 | WEB-A2: Tích hợp AI vào ứng dụng web & cloud | 3 | | | | 3 | | | | |
+| 25 | SE-AI: Công nghệ phần mềm điều hướng bởi AI | 3 | | | | 3 | | | | |
+| 26 | Kiến trúc phần mềm & Microservices | 3 | | | | 3 | | | | |
+| 27 | Kiểm thử PM & Đảm bảo chất lượng | 3 | | | | | 3 | | | |
+| 28 | Lập trình đồng thời & Phân tán | 3 | | | | | 3 | | | |
+| 29 | Tương tác người-máy & UX for AI | 3 | | | | | 3 | | | |
+| 30 | Phát triển ứng dụng di động | 3 | | | | | | 3 | | |
+| 31 | Phân tích yêu cầu phần mềm | 3 | | | | | | 3 | | |
+| **II.3** | **AI Engineering & Cloud** | **15** | | | | | | | | |
+| 32 | LLM Engineering & Ứng dụng | 3 | | | | | 3 | | | |
+| 33 | CLD-1: Hạ tầng đám mây & DevOps | 3 | | | | | 3 | | | |
+| 34 | AI Agent Systems | 3 | | | | | | 3 | | |
+| 35 | DevOps & CI/CD Pipeline | 3 | | | | | | 3 | | |
+| 36 | Phát triển với AI Pair Programmer | 3 | | | | 3 | | | | |
+| **II.4** | **Tự chọn chuyên sâu** | **9** | | | | | | | | |
+| 37–39 | Tự chọn (1 trong 3 track) | 9 | | | | | | | 9 | |
+| **II.5** | **Thực tập & Đồ án** | **14** | | | | | | | | | |
+| 40 | Thực tập tốt nghiệp | 4 | | | | | | | | 4 |
+| 41 | Đồ án tốt nghiệp | 10 | | | | | | | | 10 |
+| | **Tổng cộng** | **140** | **12** | **18** | **18** | **18** | **18** | **17** | **15** | **14** |
+
+> **Kiểm tra tải:** Tối đa 18 TC/HK (HK2–HK5) — nằm trong giới hạn cho phép. HK1 nhẹ hơn để sinh viên năm nhất thích nghi.
